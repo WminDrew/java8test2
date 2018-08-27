@@ -1,0 +1,5 @@
+package model.observerModel;
+
+public interface Observer {
+    void notify(String tweet);
+}
